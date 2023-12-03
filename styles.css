@@ -3,11 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6;
 }
 
-.header {
-    background-color: darkslategrey;
-    color: black;
+.header1 {
+    background-color: #000c8b;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+
+.header2 {
+    background-color: #000c8b;
+    color: whitesmoke;
     text-align: center;
     padding: 1em;
 }
@@ -30,6 +38,66 @@
 }
 
 .p{
-    color: blue;
-    font-size: 14px
+    color: black;
+    font-size: 18px;
+    leftpadding: 200px
 }
+.ol {
+    : 200px
+}
+nav {
+    background-color: #000c8b;
+    text-align: center;
+    padding: 1em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000c8b;
+    box-shadow: 0 8px 16px rgb(0, 12, 139);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #000c8b;
+    color: gold;
+} 
