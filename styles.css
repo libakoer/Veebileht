@@ -81,7 +81,6 @@ nav {
     text-align: left;
     padding: 10px 0;
 }
-
 nav a {
     text-decoration: none;
     color: #fff;
@@ -89,14 +88,9 @@ nav a {
     padding: 8px;
     font-size: 30px;
 }
-
-
 main {
     padding: 20px;
 }
-
-
-
 footer {
     background-color: #6d6d6d;
     color: #fff;
@@ -116,6 +110,5 @@ a{
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-
 }
+
